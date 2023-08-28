@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(ratangad-trek-768x446.jpg);
+    background-position: static;
+   
+}
+.main{
+    width: 100%;
+    position: relative;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.main navbar{
+    
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+.main navbar logo{
+    margin: 30px 10px;
+    padding-left: 50px;
+}
+.main navbar logo img{
+    padding-top: 10px;
+}
+.main navbar navlist{
+    align-items: right;
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+   
+    
+}
+.main navbar navlist ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: right;
+    margin-left: 700px;
+}
+.main navbar navlist ul li{
+    padding: 32px 30px;
+    text-align: right;
+    display: inline-block;
+    
+}
+.main navbar navlist ul li a{
+    text-decoration: none;
+    font-size: 15px ;
+    color: white;
+   
+}
+.main navbar navlist ul li::after{
+    width: 0%;
+    height: 2px;
+    background: orangered;
+    display: block;
+    content: '';
+    margin: auto;
+    transition: 0.5s;
+}
+.main navbar navlist ul li:hover::after{
+    width: 100%;
+}
+.content1{
+    width: 90%;
+    margin-right: 60px;
+    display: flex;
+    margin: 40px 30px;
+    background: white;
+    border-radius: 30px;
+    height: 220px;
+}
+.content1:hover{
+    padding: 5px 5px;
+    transition: 0.3s;
+}
+.content1 img{
+    width: 244px;
+    height: 174px;
+    margin: 20px 26px;
+}
+.content1 h1{
+    left: 26%;
+    background: white;
+    position: relative;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-block-end: auto;
+}
+.content1 p{
+    padding-top: 50px;
+    font-size: 23px;
+    background: white;
+}
+.content1 h2{
+    margin-top: 81px;
+    margin-left: -753px;
+    background: white;
+}
+.content1 h2 b{
+    background: white;
+    padding: 2px;
+    font-size: 21px;
+}
+.content1 h3{
+    background: white;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 238px;
+}
+.content1 h3 b{
+    background: white;
+}
+.content1 h4{
+    background: white;
+    margin-top: 153px;
+    font-size: 30px;
+    margin-left: -88px;
+}
+.content1 h4 b{
+    background: white;
+}
+.content1 form{
+    background: white;
+    margin-top: 100px;
+    margin: auto;
+}
+.content1 form a {
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 5px 9px;
+    margin-right: 10px;
+    text-decoration: none;
+    background: orangered;
+    color: white;
+    height: 34px;
+    align-items: center;
+    width: 105px;
+    font-size: 21px;
+    font-family: serif;
+    border-radius: 25px;
+}
+
+.content1 form a:hover{
+    background: yellow;
+    transition: 0.3s;
+    color: black;
+}
+
+.content2{
+    width: 90%;
+    margin-right: 60px;
+    display: flex;
+    margin: 40px 30px;
+    background: white;
+    border-radius: 30px;
+    height: 220px;
+}
+.content2:hover{
+    padding: 5px 5px;
+    transition: 0.3s;
+}
+.content2 img{
+    width: 244px;
+    height: 174px;
+    margin: 20px 26px;
+}
+.content2 h1{
+    left: 26%;
+    background: white;
+    position: relative;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-block-end: auto;
+    z-index: 1;
+}
+.content2 p{
+    padding-top: 50px;
+    font-size: 23px;
+    background: white;
+    position: relative;
+    left: -24%;
+}
+.content2 h2{
+    margin-top: 90px;
+    margin-left: -1000px;
+    background: white;
+}
+.content2 h2 b{
+    background: white;
+    padding: 2px;
+    font-size: 21px;
+    z-index: 1;
+    position: relative;
+    left: -19%;
+}
+.content2 h3{
+    background: white;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 200px;
+    position: relative;
+}
+.content2 h3 b{
+    background: white;
+}
+.content2 h4{
+    background: white;
+    margin-top: 13px;
+    font-size: 30px;
+    margin-left: 195px;
+    position: relative;
+}
+.content2 h4 b{
+    background: white;
+}
+.content2 form{
+    
+    margin-top: 100px;
+    margin: auto;
+    position: relative;
+    left: 118%;
+    top: -34%;
+}
+.content2 form a {
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 5px 9px;
+    margin-right: 10px;
+    text-decoration: none;
+    background: orangered;
+    color: white;
+    height: 34px;
+    align-items: center;
+    width: 105px;
+    font-size: 21px;
+    font-family: serif;
+    border-radius: 25px;
+}
+.content2 form a:hover{
+    background: yellow;
+    transition: 0.3s;
+    color: black;
+}
+
+.content3{
+    width: 90%;
+    margin-right: 60px;
+    display: flex;
+    margin: 40px 30px;
+    background: white;
+    border-radius: 30px;
+    height: 220px;
+}
+.content3:hover{
+    padding: 5px 5px;
+    transition: 0.3s;
+}
+.content3 img{
+    width: 244px;
+    height: 174px;
+    margin: 20px 26px;
+}
+.content3 h1{
+    left: 26%;
+    background: white;
+    position: relative;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-block-end: auto;
+    z-index: 1;
+}
+.content3 p{
+    padding-top: 50px;
+    font-size: 23px;
+    background: white;
+    left: -12%;
+    position: relative;
+    margin-block-end: auto;
+}
+.content3 h2{
+    margin-top: 81px;
+    margin-left: -1079px;
+    background: white;
+    z-index: 1;
+}
+.content3 h2 b{
+    background: white;
+    padding: 2px;
+    font-size: 21px;
+}
+.content3 h3{
+    background: white;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 238px;
+}
+.content3 h3 b{
+    background: white;
+}
+.content3 h4{
+    margin-top: 15px;
+    margin-left: 237px;
+    z-index: 1;
+    color: black;
+    font-size: 33px;
+}
+.content3 h4 b{
+    background: white;
+}
+.content3 form{
+    margin: auto;
+    position: relative;
+    top: -89px;
+    left: 402px;
+    margin-block-end: auto;
+}
+.content3 form a {
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 5px 9px;
+    margin-right: 10px;
+    text-decoration: none;
+    background: orangered;
+    color: white;
+    height: 34px;
+    align-items: center;
+    width: 105px;
+    font-size: 21px;
+    font-family: serif;
+    border-radius: 25px;
+}
+.content3 form a:hover{
+    background: yellow;
+    transition: 0.3s;
+    color: black;
+}
+.content4{
+    width: 90%;
+    margin-right: 60px;
+    display: flex;
+    margin: 40px 30px;
+    background: white;
+    border-radius: 30px;
+    height: 220px;
+}
+.content4:hover{
+    padding: 5px 5px;
+    transition: 0.3s;
+}
+.content4 img{
+    width: 244px;
+    height: 174px;
+    margin: 20px 26px;
+}
+.content4 h1{
+    left: 26%;
+    background: white;
+    position: relative;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-block-end: auto;
+}
+.content4 p{
+    padding-top: 50px;
+    font-size: 23px;
+    background: white;
+}
+.content4 h2{
+    margin-top: 81px;
+    margin-left: -695px;
+    background: white;
+}
+.content4 h2 b{
+    background: white;
+    padding: 2px;
+    font-size: 21px;
+}
+.content4 h3{
+    background: white;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-left: 238px;
+}
+.content4 h3 b{
+    background: white;
+}
+.content4 h4{
+    background: white;
+    margin-top: 153px;
+    font-size: 30px;
+    margin-left: -88px;
+}
+.content4 h4 b{
+    background: white;
+}
+.content4 form{
+    background: white;
+    margin-top: 100px;
+    margin: auto;
+}
+.content4 form a {
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 5px 9px;
+    margin-right: 10px;
+    text-decoration: none;
+    background: orangered;
+    color: white;
+    height: 34px;
+    align-items: center;
+    width: 105px;
+    font-size: 21px;
+    font-family: serif;
+    border-radius: 25px;
+}
+.content4 form a:hover{
+    background: yellow;
+    transition: 0.3s;
+    color: black;
+}

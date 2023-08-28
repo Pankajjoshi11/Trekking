@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(trekking1.webp);
+   
+}
+.main{
+    width: 100%;
+    position: relative;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.main navbar{
+    
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+.main navbar logo{
+    margin: 30px 10px;
+    padding-left: 50px;
+}
+.main navbar logo img{
+    padding-top: 10px;
+}
+.main navbar navlist{
+    align-items: right;
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+   
+    
+}
+.main navbar navlist ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: right;
+    margin-left: 700px;
+}
+.main navbar navlist ul li{
+    padding: 32px 30px;
+    text-align: right;
+    display: inline-block;
+    
+}
+.main navbar navlist ul li a{
+    text-decoration: none;
+    font-size: 15px ;
+    color: white;
+   
+}
+.main navbar navlist ul li::after{
+    width: 0%;
+    height: 2px;
+    background: orangered;
+    display: block;
+    content: '';
+    margin: auto;
+    transition: 0.5s;
+}
+.main navbar navlist ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 90%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius: 42px;
+    padding: 10px;
+}
+
+.content h1{
+    color: orangered;
+    font-size: 45px;
+    align-items: center;
+    font-family: sans-serif;
+    background: white;
+}
+.content p{
+    color: black;
+    font-size: 20px;
+    background: white;
+    margin-top: 5px;
+}
+.button1{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: yellow;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50px;
+    margin-top: 5px;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.button1:hover{
+    transition: 0.3s;
+    padding: 12px 23px;
+    background-color: orangered;
+    color: white;
+}
+.content form{
+    width: 600px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 58px;
+    background: white;
+}
+.content form input{
+    border: none;
+    outline: none;
+    flex: 10;
+    height: 35px;
+    color: black;
+    border: 2px solid orangered;
+    padding-left: 8px;
+}
+.content form button{
+    background: orangered;
+    padding: 10px 50px;
+    border: 1px solid orangered;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}

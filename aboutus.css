@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(trekking3.png);
+   
+}
+.main{
+    width: 100%;
+    position: relative;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.main navbar{
+    
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+.main navbar logo{
+    margin: 30px 10px;
+    padding-left: 50px;
+}
+.main navbar logo img{
+    padding-top: 10px;
+}
+.main navbar navlist{
+    align-items: right;
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+   
+    
+}
+.main navbar navlist ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: right;
+    margin-left: 700px;
+}
+.main navbar navlist ul li{
+    padding: 32px 30px;
+    text-align: right;
+    display: inline-block;
+    
+}
+.main navbar navlist ul li a{
+    text-decoration: none;
+    font-size: 15px ;
+    color: white;
+   
+}
+.main navbar navlist ul li::after{
+    width: 0%;
+    height: 2px;
+    background: orangered;
+    display: block;
+    content: '';
+    margin: auto;
+    transition: 0.5s;
+}
+.main navbar navlist ul li:hover::after{
+    width: 100%;
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+.title h1{
+    color: white;
+    align-items: center;
+    width: 100%;
+    padding-top: 171px;
+    font-size: 35px;
+    background: none;
+}
+.headstart {
+    width: 90%;
+    height: 60%;
+    background: white;
+    color: black;
+    left: 50%;
+    margin: auto;
+}
+.headstart p{
+    font-size: 20px;
+    background: white;
+    padding-top: 30px;
+    width: 90%;
+    margin-top: 293px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content1{
+    width: 90%;
+    height: 60%;
+    background: white;
+    color: black;
+    left: 50%;
+    margin: auto;
+    display: flex;
+
+}
+.content1 p{
+    font-size: 20px;
+    background: white;
+    padding-top: 30px;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+.content1 img{
+    width: 550px;
+    height: 250px;
+    padding: 10px 20px;
+    background: white;
+    padding-right: 30px;
+
+}
+.content2{
+    width: 90%;
+    height: 60%;
+    background: white;
+    color: black;
+    left: 50%;
+    margin: auto;
+    display: flex;
+
+}
+.content2 p{
+    font-size: 20px;
+    background: white;
+    padding-top: 30px;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+}
+.content2 img{
+    width: 550px;
+    height: 250px;
+    padding: 10px 20px;
+    background: white;
+    padding-right: 30px;
+
+}
+.content3{
+    width: 90%;
+    height: 60%;
+    background: white;
+    color: black;
+    left: 50%;
+    margin: auto;
+    display: flex;
+
+}
+.content3 p{
+    font-size: 20px;
+    background: white;
+    padding-top: 30px;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+.content3 img{
+    width: 550px;
+    height: 250px;
+    padding: 10px 20px;
+    background: white;
+    padding-right: 30px;
+
+}
